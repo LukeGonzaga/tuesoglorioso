@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+:root{
+    --preto: black;
+    --branco: white;
+    --dourado: #daa520;
+
+}
+body{
+    background-color: grey;
+    color: var(--branco);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--preto) 50%, var(--branco) );
+    
+}
+header h1{
+    text-align: center;
+    font-size: 3em;
+    padding: 5px;
+}
+header p{
+    text-align: center;
+    color: var(--preto);
+    
+}
+nav{
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--branco), var(--dourado)45%);
+    border-radius: 0px 0px 10px 10px;
+}
+nav a{
+    text-decoration: none;
+    padding: 5px;
+    color: var(--preto);
+
+}
+nav p{
+    color: var(--preto);
+    padding: 7px;
+}
+nav a:hover{
+    background-color: var(--preto);
+    color: #daa520;
+    padding: 0px;
+    font-weight: bolder;
+}
+nav p::after{
+    content: '\2605';
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: var(--branco);
+    color: var(--preto);
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 460);
+    
+}
+main p{
+    margin: 15px 15px;
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 1.5em;
+    font-size: 17px;
+    padding-bottom: 60px;
+
+}
+main a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #daa520;
+}
+main img{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+}
+main img.jogadores{
+    width: 45%;
+    padding-top: 10px;
+}
+article h1{
+    background-image: linear-gradient(to right, var(--preto)40%, var(--branco), var(--preto));
+    color: #daa520;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+footer{
+    font-size: 1.3em;
+    background-color: black;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 460);
+    text-shadow: 0px 0px 10px grey;
+}
+footer a{
+    text-decoration: none;
+    color: #daa520;
+}
