@@ -8,8 +8,9 @@
     --titulo: 'Josefin Sans', sans-serif;
 
 }
-html body{
-    background-image: linear-gradient(to bottom, var(--preto), var(--branco), var(--dourado));  
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, var(--preto), var(--branco), var(--dourado));
 }
 *{
     margin: 0px;
