@@ -84,6 +84,7 @@ main a{
     text-decoration: none;
     font-weight: bolder;
     color: #daa520;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.308);
 }
 main img{
     width: 40%;
